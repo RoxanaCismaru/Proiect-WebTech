@@ -1,0 +1,17 @@
+Tema proiect: 
+Appointment manager integrat cu google calendar
+
+Concept proiect:
+
+Aplicatia va implica existenta unor useri, care vor stabili intalniri intre ei. 
+Userii se vor loga pe baza de e_mail si parola, iar contul lor va contine la vedere pentru alti utilizatori mailul,
+numele de utilizator si o fotografie. 
+
+In momentul in care un user doreste sa stabileasca o intalnire cu un alt user, acesta va selecta user-ul, ora, locatia, tema, 
+optional o agenda de zi(in cazul intalnirilor de tip sedinta). La selectarea orei, user-ul va fi restrictionat de orele ramase libere
+in programul celui cu care urmeaza sa stabileasca o intalnire. Dupa completarea campurilor se va plasa un request pentru intalnire la
+user-ul vizat. Daca acesta va da accept la appointment, atunci in calendarul utilizatorilor vizati va fi trecuta intalnirea la data si ora 
+stabilite. 
+
+Va exista si posibilitatea de a programa o intalnire pe baza alegerii unei variante optime de data si ora, cu acceptul user-ului cu care se va
+face intalnirea. 
